@@ -1,0 +1,196 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  gap: 30px 0px;
+  padding: 30px;
+}
+
+button {
+  border: none;
+  border-radius: 0.4em;
+  margin: 10px;
+}
+
+.message{
+  position: fixed;
+  top: 5%;
+  right: 10%;
+  font-size: x-large;
+}
+
+.summary {
+  padding: 10px 10px;
+  background-color: #41508b;
+  border: solid 1px #1f253d;
+  border-radius: 25px;
+  min-width: 320px;
+}
+
+.summary > h2 {
+  margin-top: 0px;
+}
+
+.creation {
+  padding: 30px 10px;
+  background-color: #41508b;
+  border: solid 1px #1f253d;
+  border-radius: 25px;
+  min-width: 320px;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+.creation > form > .name, .lastName {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.creation-button {
+  margin: 0px 20px;
+  margin-top: 5px;
+  float: right;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.account-list {
+  padding: 10px 10px 20px 10px;
+  background-color: #41508b;
+  border: solid 1px #1f253d;
+  border-radius: 25px;
+  min-width: 410px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.account-display-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.account-generated-list {
+  background-color: #4f62aa;
+  padding: 10px;
+  border: solid 1px #1f253d;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.balance-input {
+  width: 100px;
+}
+
+.account-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.account-info > p {
+  margin: 0;
+}
+
+.header {
+  background-color: #303642;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-name {
+  font-size: 30px;
+  cursor: default;
+}
+
+.nav-link {
+  margin-left: 50px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  padding-top: 10px;
+}
+
+.nav-link:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.home {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.home-summary {
+  padding: 10px 10px;
+  background-color: #41508b;
+  border: solid 1px #1f253d;
+  border-radius: 25px;
+  width: 500px;
+  height: 200px;
+  color: white;
+  text-align: center;
+}
+
+.home-about {
+  padding-top: 15px;
+  text-align: justify;
+}
+
+.login {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+  color: white;
+}
+
+.login-form {
+  padding: 10px 10px;
+  background-color: #41508b;
+  border: solid 1px #1f253d;
+  border-radius: 25px;
+  width: 300px;
+  height: 150px;
+  color: white;
+  text-align: center;
+}
+
+.login-input > .username, .password {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.summary-text {
+  margin: 0;
+}
